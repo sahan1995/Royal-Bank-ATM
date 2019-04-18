@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.royal.controller.AccountDetailsController">
+   <children>
+      <Label layoutX="133.0" layoutY="135.0" prefHeight="22.0" prefWidth="95.0" text="Name" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="203.0" prefHeight="22.0" prefWidth="130.0" text="Account Type" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="243.0" prefHeight="22.0" prefWidth="154.0" text="Current Amount" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblName" layoutX="301.0" layoutY="135.0" prefHeight="22.0" prefWidth="297.0" text="Name" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAccountType" layoutX="301.0" layoutY="203.0" prefHeight="22.0" prefWidth="297.0" text="Name" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAmount" layoutX="301.0" layoutY="243.0" prefHeight="22.0" prefWidth="297.0" text="Name" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="168.0" prefHeight="22.0" prefWidth="95.0" text="Account No" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAccno" layoutX="301.0" layoutY="168.0" prefHeight="22.0" prefWidth="297.0" text="Name" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnReturnCard" layoutX="421.0" layoutY="306.0" onAction="#btnReturnCardOnAction" prefHeight="54.0" prefWidth="149.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" />
+      <Label layoutX="428.0" layoutY="312.0" prefHeight="7.0" prefWidth="124.0" text="Return Card" textFill="#070707">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="529.0" layoutY="14.0" onAction="#btnHomeOnAction" prefHeight="45.0" prefWidth="57.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Home">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

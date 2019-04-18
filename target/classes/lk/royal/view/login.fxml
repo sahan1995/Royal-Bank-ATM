@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" prefHeight="454.0" prefWidth="793.0" style="-fx-background-color: #36B3E6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.royal.controller.LoginController">
+   <children>
+      <Label layoutX="41.0" layoutY="137.0" text="Welcome to Royal Bank" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="196.0" text="Please insert your card in the slot and enter pin" textFill="#f8f8f8">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPin" layoutX="41.0" layoutY="267.0" prefHeight="42.0" prefWidth="352.0" promptText="Insert PIN" />
+      <JFXButton fx:id="btnLogin" layoutX="157.0" layoutY="328.0" onAction="#btnLoginAction" prefHeight="33.0" prefWidth="120.0" style="-fx-background-color: white;" text="Login">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

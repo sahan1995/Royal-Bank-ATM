@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="428.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.royal.controller.WithdrawAmountController">
+   <children>
+      <TextField fx:id="txtAmount" layoutX="233.0" layoutY="190.0" prefHeight="43.0" prefWidth="470.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="80.0" layoutY="198.0" text="Enter Amount">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnProcess" layoutX="602.0" layoutY="300.0" onAction="#btnProcessOnAction" prefHeight="33.0" prefWidth="202.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Process">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="648.0" layoutY="361.0" onAction="#btnRetunOnAction" prefHeight="54.0" prefWidth="149.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" />
+      <Label layoutX="661.0" layoutY="373.0" prefHeight="15.0" prefWidth="108.0" text="Return Card" textFill="#070707">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="739.0" layoutY="80.0" onAction="#btnHomeOnAction" prefHeight="45.0" prefWidth="57.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Home">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

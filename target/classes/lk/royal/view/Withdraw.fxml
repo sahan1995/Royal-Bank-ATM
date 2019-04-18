@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="493.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.royal.controller.WithdrawController">
+   <children>
+      <Label layoutX="296.0" layoutY="44.0" prefHeight="33.0" prefWidth="185.0" text="Cash Withdrawal" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btn500" layoutX="560.0" layoutY="162.0" onAction="#btn500Click" prefHeight="33.0" prefWidth="202.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Rs 500.00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn1000" layoutX="14.0" layoutY="228.0" onAction="#btn1000Click" prefHeight="33.0" prefWidth="202.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Rs 1000.00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn2000" layoutX="560.0" layoutY="228.0" onAction="#btn2000Click" prefHeight="33.0" prefWidth="202.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Rs 2000.00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn4000" layoutX="560.0" layoutY="296.0" onAction="#btn4000Click" prefHeight="33.0" prefWidth="202.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Rs 4000.00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn3000" layoutX="14.0" layoutY="296.0" onAction="#btn3000Click" prefHeight="33.0" prefWidth="202.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Rs 3000.00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnEnterAmount" layoutX="560.0" layoutY="367.0" onAction="#btnEnterAmount" prefHeight="33.0" prefWidth="202.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Enter Amount">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="613.0" layoutY="421.0" onAction="#btnRetunOnAction" prefHeight="54.0" prefWidth="149.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" />
+      <Label layoutX="626.0" layoutY="433.0" prefHeight="15.0" prefWidth="108.0" text="Return Card" textFill="#070707">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="688.0" layoutY="22.0" onAction="#btnHomeOnAction" prefHeight="45.0" prefWidth="57.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);;" text="Home">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
